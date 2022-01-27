@@ -1,5 +1,4 @@
-export class CryptMarket {
-
+export class CryptoMarketModel {
     id: string = '';
     symbol: string = '';
     name: string = '';
@@ -24,6 +23,6 @@ export class CryptMarket {
     atl: number = 0;
     atl_change_percentage: number = 0;
     atl_date: Date = new Date();
-    roi: number | null = null;
+    roi: any = null;
     last_updated: string = '';
 }

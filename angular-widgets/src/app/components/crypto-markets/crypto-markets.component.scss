@@ -1,0 +1,10 @@
+.crypto-markets {
+        display: grid;
+        margin: 30px 0;
+        gap: 50px;
+        grid-template-columns: repeat(4, 1fr);
+
+        &__img{
+            width: 40px;
+        }
+}
