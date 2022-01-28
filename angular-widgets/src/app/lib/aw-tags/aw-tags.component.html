@@ -3,9 +3,5 @@
         <span class="tags__text">{{ tag }}</span>
         <span class="tags__close" (click)="remove(i)">X</span>
     </div>
-    <input type="text"
-        class="tags__input"
-        [maxLength]="max"
-        (keyup.enter)="add($event)"
-        placeholder="Ajouter un tag">
+    <input type="text" class="tags__input" [maxLength]="max" (keyup.enter)="add($event)" placeholder="Ajouter un tag">
 </div>

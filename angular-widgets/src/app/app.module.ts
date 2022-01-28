@@ -14,6 +14,7 @@ import { AwBlogFormComponent } from './components/aw-blog-form/aw-blog-form.comp
 import { BlogArticleComponent } from './components/aw-blog-article/blog-article.component';
 import { CardComponent } from './components/aw-card/aw-card.component';
 import { CryptoMarketsComponent } from './components/crypto-markets/crypto-markets.component';
+import { AwColorSliderComponent } from './lib/aw-color-slider/aw-color-slider.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CryptoMarketsComponent } from './components/crypto-markets/crypto-marke
     AwBlogFormComponent,
     BlogArticleComponent,
     CardComponent,
-    CryptoMarketsComponent
+    CryptoMarketsComponent,
+    AwColorSliderComponent
   ],
   imports: [
     BrowserModule,
